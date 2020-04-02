@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var student;
+
+    student = {};
+    student.name="chử ngọc ánh";
+    student.age=20;
+    student.location="sơn la";
+
+    console.log(student);
+
+    /*
+    * chuyển đổi object trong js thành chuỗi json
+    * dùng JSON.stringify
+     */
+    var student_json = JSON.stringify(student);
+    console.log(student_json);
+
+    /*
+    *đây là 1 chuỗi json: là 1 kiểu dữ liệu dùng để lưu trữ và trao đổi thông tin
+    *{"name":"chử ngọc ánh","age":20,"location":"sơn la"}
+     */
+
+</script>
+</body>
+</html>
